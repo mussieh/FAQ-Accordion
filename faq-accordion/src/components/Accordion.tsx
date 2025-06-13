@@ -20,6 +20,7 @@ const Accordion = ({ question, answer }: AccordionProps) => {
                     {question}
                 </p>
                 <button
+                    type="button"
                     onClick={() => setIsOpen((prev) => !prev)}
                     className="relative w-6 h-6 cursor-pointer"
                 >
