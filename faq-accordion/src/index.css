@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("../src/assets/fonts/WorkSans-VariableFont_wght.ttf")
+        format("truetype");
+}
+
+@config "../tailwind.config.js";
